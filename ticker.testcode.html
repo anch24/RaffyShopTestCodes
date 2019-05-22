@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ticker Test Code</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/jquery.simpleTicker.css">
+</head>
+<body>
+
+
+	<div id="ticker" class="ticker">
+		<ul>
+			<li>testestest1</li>
+			<li>testestest2</li>
+			<li>testestest3</li>
+			<li>testestest4</li>
+			<li>testestest5</li>
+		</ul>
+	</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.simpleTicker.js"></script>
+
+<script type="text/javascript">
+	$.simpleTicker($("#ticker"),{
+  		effectType : 'roll'
+	});
+</script>
+</body>
+</html>
